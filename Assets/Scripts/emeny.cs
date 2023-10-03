@@ -11,6 +11,7 @@ public class emeny : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //
         sr = GetComponent<SpriteRenderer>();
     }
 
@@ -21,5 +22,6 @@ public class emeny : MonoBehaviour
         Vector2 direction = player.transform.position - transform.position;
 
     transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+
     }
 }
