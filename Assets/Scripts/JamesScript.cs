@@ -13,6 +13,7 @@ public class JamesScript : MonoBehaviour
     Animator anim;
     bool isGrounded;
     SpriteRenderer sr;
+    Coin coin;
 
     [SerializeField] private LayerMask jumableground;
     // Start is called before the first frame update
@@ -23,6 +24,7 @@ public class JamesScript : MonoBehaviour
         coll = GetComponent<CapsuleCollider2D>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        coin = GetComponent<Coin>();
     }
 
     // Update is called once per frame
@@ -30,14 +32,23 @@ public class JamesScript : MonoBehaviour
     {
         anim.SetBool("walk", false);
         anim.SetBool("jump", false);
+        anim.speed = 1;
         int speed = 3;
         if (Input.GetKeyDown("space")) 
         {
             speed = 4;
         }
-        if (Input.GetKeyDown("w") && IsGrounded())
+        if (Input.GetKeyDown("space") && IsGrounded())
         {
-            rb.AddForce(new Vector3(0, 3, 0), ForceMode2D.Impulse);
+            rb.AddForce(new Vector3(0, 5, 0), ForceMode2D.Impulse);
+        }
+        if(Input.GetKey("w"))
+        {
+            speed = 6;
+            anim.speed = 2;
+        }
+        if (IsGrounded() == false)
+        {
             anim.SetBool("jump", true);
         }
         if (Input.GetKey("a"))
