@@ -1,31 +1,55 @@
 fileFormatVersion: 2
-guid: e7d938dd30c38854b8809d3db18798fe
+guid: 47aafa3a8dad9034f887cd0f7471d8b7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8267862610151389714
-    second: Run 1_0
+      213: -1803970766486466069
+    second: Enemywalk_0
   - first:
-      213: -8150053399049990511
-    second: Run 1_1
+      213: 8350466655948328655
+    second: Enemywalk_1
   - first:
-      213: -6242813699937718259
-    second: Run 1_2
+      213: -2174209903990357848
+    second: Enemywalk_2
   - first:
-      213: 8562807158379681788
-    second: Run 1_3
+      213: -4624031011103019489
+    second: Enemywalk_3
   - first:
-      213: -1411956425634565026
-    second: Run 1_4
+      213: -4386683597811626305
+    second: Enemywalk_4
   - first:
-      213: -4039374223132378133
-    second: Run 1_5
+      213: 494490960930636908
+    second: Enemywalk_5
   - first:
-      213: -5733126817069060630
-    second: Run 1_6
+      213: 7236539397490124168
+    second: Enemywalk_6
   - first:
-      213: 7168140902116452433
-    second: Run 1_7
+      213: 531004917508373524
+    second: Enemywalk_7
+  - first:
+      213: -6454551494227254109
+    second: Enemywalk_8
+  - first:
+      213: -8707336164512836121
+    second: Enemywalk_9
+  - first:
+      213: 1639212307367267068
+    second: Enemywalk_10
+  - first:
+      213: 353095397465850650
+    second: Enemywalk_11
+  - first:
+      213: 8344404643435215548
+    second: Enemywalk_12
+  - first:
+      213: 4775506317930478058
+    second: Enemywalk_13
+  - first:
+      213: -4957430498028207772
+    second: Enemywalk_14
+  - first:
+      213: 7233433876919739767
+    second: Enemywalk_15
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -179,13 +203,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run 1_0
+      name: Enemywalk_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 54
-        width: 27
-        height: 39
+        x: 19
+        y: 223
+        width: 51
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21abec92d395db270800000000000000
-      internalID: 8267862610151389714
+      spriteID: be1926e452207f6e0800000000000000
+      internalID: -1803970766486466069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 1_1
+      name: Enemywalk_1
       rect:
         serializedVersion: 2
-        x: 205
-        y: 58
-        width: 35
-        height: 36
+        x: 91
+        y: 222
+        width: 42
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19e09294d9135ee80800000000000000
-      internalID: -8150053399049990511
+      spriteID: fce4b805e21d2e370800000000000000
+      internalID: 8350466655948328655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 1_2
+      name: Enemywalk_2
       rect:
         serializedVersion: 2
-        x: 359
-        y: 56
-        width: 27
-        height: 38
+        x: 156
+        y: 224
+        width: 41
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d00354804021d59a0800000000000000
-      internalID: -6242813699937718259
+      spriteID: 8a0c48d9c97a3d1e0800000000000000
+      internalID: -2174209903990357848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 1_3
+      name: Enemywalk_3
       rect:
         serializedVersion: 2
-        x: 513
-        y: 54
-        width: 20
-        height: 39
+        x: 221
+        y: 227
+        width: 41
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf7946b2eb335d670800000000000000
-      internalID: 8562807158379681788
+      spriteID: f1e60d86b4424dfb0800000000000000
+      internalID: -4624031011103019489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 1_4
+      name: Enemywalk_4
       rect:
         serializedVersion: 2
-        x: 658
-        y: 54
-        width: 29
-        height: 38
+        x: 285
+        y: 227
+        width: 45
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e54b8bb9c19b76ce0800000000000000
-      internalID: -1411956425634565026
+      spriteID: fbec76a628e5f13c0800000000000000
+      internalID: -4386683597811626305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 1_5
+      name: Enemywalk_5
       rect:
         serializedVersion: 2
-        x: 805
-        y: 62
-        width: 36
-        height: 31
+        x: 347
+        y: 227
+        width: 47
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +322,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: beb335bab8241f7c0800000000000000
-      internalID: -4039374223132378133
+      spriteID: c6489e6b8e8ccd600800000000000000
+      internalID: 494490960930636908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 1_6
+      name: Enemywalk_6
       rect:
         serializedVersion: 2
-        x: 958
-        y: 56
-        width: 29
-        height: 37
+        x: 406
+        y: 225
+        width: 50
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,20 +343,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aed25580987df60b0800000000000000
-      internalID: -5733126817069060630
+      spriteID: 885a48ebd3a5d6460800000000000000
+      internalID: 7236539397490124168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 1_7
+      name: Enemywalk_7
       rect:
         serializedVersion: 2
-        x: 1112
-        y: 54
-        width: 21
-        height: 38
+        x: 468
+        y: 222
+        width: 51
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,8 +364,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 158699a0c2a5a7360800000000000000
-      internalID: 7168140902116452433
+      spriteID: 41c721ab8228e5700800000000000000
+      internalID: 531004917508373524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemywalk_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 222
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a42e1a1d93dc66a0800000000000000
+      internalID: -6454551494227254109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemywalk_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 222
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5dc4e44e3592780800000000000000
+      internalID: -8707336164512836121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemywalk_10
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 222
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa031c98e6afb610800000000000000
+      internalID: 1639212307367267068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemywalk_11
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 222
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1307c9a46276e400800000000000000
+      internalID: 353095397465850650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemywalk_12
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 222
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba731a00d74dc370800000000000000
+      internalID: 8344404643435215548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemywalk_13
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 222
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae931e6c1b1064240800000000000000
+      internalID: 4775506317930478058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemywalk_14
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 222
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46147564a3ba33bb0800000000000000
+      internalID: -4957430498028207772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemywalk_15
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 223
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775e31469c1526460800000000000000
+      internalID: 7233433876919739767
       vertices: []
       indices: 
       edges: []
@@ -356,15 +548,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Run 1_0: 8267862610151389714
-      Run 1_1: -8150053399049990511
-      Run 1_2: -6242813699937718259
-      Run 1_3: 8562807158379681788
-      Run 1_4: -1411956425634565026
-      Run 1_5: -4039374223132378133
-      Run 1_6: -5733126817069060630
-      Run 1_7: 7168140902116452433
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

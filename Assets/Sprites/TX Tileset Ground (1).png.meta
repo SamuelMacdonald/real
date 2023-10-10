@@ -380,7 +380,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TX Tileset Ground (1)_0: -5462399101124956300
+      TX Tileset Ground (1)_1: 4803749394274141036
+      TX Tileset Ground (1)_2: 2802667745894797906
+      TX Tileset Ground (1)_3: 6293767463143530119
+      TX Tileset Ground (1)_4: 3479616719275913841
+      TX Tileset Ground (1)_5: 7718867385232786702
+      TX Tileset Ground (1)_6: -2167695756248632297
+      TX Tileset Ground (1)_7: 440387096708394535
+      TX Tileset Ground (1)_8: -5095984640025277643
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

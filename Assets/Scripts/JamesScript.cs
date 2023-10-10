@@ -30,7 +30,7 @@ public class JamesScript : MonoBehaviour
     {
         anim.SetBool("walk", false);
         anim.SetBool("jump", false);
-        int speed = 2;
+        int speed = 3;
         if (Input.GetKeyDown("space")) 
         {
             speed = 4;
