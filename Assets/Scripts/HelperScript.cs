@@ -6,44 +6,6 @@ using UnityEngine;
 public class HelperScript : MonoBehaviour
 {
     public LayerMask groundLayerMask;
-    /*
-    bool Isgrounded()
-    {
-        Vector2 position = transform.position;
-        Vector2 direction = Vector2.down;
-        float distance = 1.0f;
-
-        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);
-        if (hit.collider != null)
-        {
-            return true;
-        }
-        return false;
-        Debug.DrawRay(position, direction, Color.green);
-        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);
-    }
-
-
-    void Update()
-    {
-        int yMovement = (int) Input.GetAxisRaw("Vertical");
-            if (yMovement == 1)
-        {
-            Jump();
-        }
-    }
-    void Jump()
-    {
-        if (!Isgrounded())
-        {
-            return;
-        }
-        else
-        {
-            //jump
-        }
-    }
-      */
 
     public void FlipObject(bool flip)
     {
@@ -60,18 +22,13 @@ public class HelperScript : MonoBehaviour
     }
     void Start()
     {
-        // set the mask to be "Ground"
         groundLayerMask = LayerMask.GetMask("Ground");
     }
-
-
-
     public void DoRayCollisionCheck()
     {
-        float rayLength = 0.5f; // length of raycast
+        float rayLength = 0.5f; 
 
 
-        //cast a ray downward 
         RaycastHit2D hit;
 
         hit = Physics2D.Raycast(transform.position, -Vector2.up, rayLength, groundLayerMask);
@@ -84,8 +41,6 @@ public class HelperScript : MonoBehaviour
             print("Player has collided with Ground layer");
             hitColor = Color.green;
         }
-        // draw a debug ray to show ray position
-        // You need to enable gizmos in the editor to see these
         Debug.DrawRay(transform.position, -Vector2.up * rayLength, hitColor);
 
     }

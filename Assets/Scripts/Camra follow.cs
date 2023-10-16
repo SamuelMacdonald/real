@@ -9,6 +9,6 @@ public class Camrafollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position = new Vector3(followTransform.position.x + 0.3f, followTransform.position.y + 0.5f, this.transform.position.z);
+        this.transform.position = new Vector3(followTransform.position.x + 0.3f, followTransform.position.y + 0.2f, this.transform.position.z);
     }
 }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Xml;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class JamesScript : MonoBehaviour
@@ -14,8 +15,9 @@ public class JamesScript : MonoBehaviour
     bool isGrounded;
     SpriteRenderer sr;
     Coin coin;
-
+    HelperScript helper;
     [SerializeField] private LayerMask jumableground;
+    bool thereGround = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class JamesScript : MonoBehaviour
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         coin = GetComponent<Coin>();
+        helper = gameObject.AddComponent<HelperScript>();
     }
 
     // Update is called once per frame
@@ -34,15 +37,13 @@ public class JamesScript : MonoBehaviour
         anim.SetBool("jump", false);
         anim.speed = 1;
         int speed = 3;
-        if (Input.GetKeyDown("space")) 
-        {
-            speed = 4;
-        }
-        if (Input.GetKeyDown("space") && IsGrounded())
+        thereGround = helper.DoRayCollisionCheck();
+        if (Input.GetKeyDown("space") )
         {
             rb.AddForce(new Vector3(0, 5, 0), ForceMode2D.Impulse);
+            helper.DoRayCollisionCheck();
         }
-        if(Input.GetKey("w"))
+        if(Input.GetKey("w") && IsGrounded())
         {
             speed = 6;
             anim.speed = 2;
